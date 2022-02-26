@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeSolution.Web.Api", "PracticeSolution.Web.Api\PracticeSolution.Web.Api.csproj", "{C6EA80F6-0D22-4628-9100-ADF8AB0E824E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeSolution.CoreLogic", "PracticeSolution.CoreLogic\PracticeSolution.CoreLogic.csproj", "{42088D14-04FA-4FCB-A309-9F838E9C048E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeSolution.Cmd", "PracticeSolution.Cmd\PracticeSolution.Cmd.csproj", "{539BA77C-5BC7-4CD4-83E4-AB8A7E60C46B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{C6EA80F6-0D22-4628-9100-ADF8AB0E824E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6EA80F6-0D22-4628-9100-ADF8AB0E824E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6EA80F6-0D22-4628-9100-ADF8AB0E824E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42088D14-04FA-4FCB-A309-9F838E9C048E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42088D14-04FA-4FCB-A309-9F838E9C048E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42088D14-04FA-4FCB-A309-9F838E9C048E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42088D14-04FA-4FCB-A309-9F838E9C048E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539BA77C-5BC7-4CD4-83E4-AB8A7E60C46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539BA77C-5BC7-4CD4-83E4-AB8A7E60C46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539BA77C-5BC7-4CD4-83E4-AB8A7E60C46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539BA77C-5BC7-4CD4-83E4-AB8A7E60C46B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
