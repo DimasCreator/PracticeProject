@@ -43,9 +43,8 @@ namespace PracticeSolution.CoreLogic.PracticeTasks
             
         }
 
-        #region Task3
-
-                // На стандартный вход подается логическое выражение и его булевы значения, необходимо вернуть результат самого логического выражения.
+        #region Task3 
+        // На стандартный вход подается логическое выражение и его булевы значения, необходимо вернуть результат самого логического выражения.
         // Список возможных логических операторов:
         // & - логическое И
         // | - логическое ИЛИ
@@ -151,7 +150,7 @@ namespace PracticeSolution.CoreLogic.PracticeTasks
 
         #region Task4
 
-                public class T4
+        public class T4
         {
             //Написать код для разбиения на чанки
             //Задача с собеседования на стажировку Касперского
@@ -241,8 +240,7 @@ namespace PracticeSolution.CoreLogic.PracticeTasks
         }
 
         #endregion
-
         
-
+        
     }
 }
