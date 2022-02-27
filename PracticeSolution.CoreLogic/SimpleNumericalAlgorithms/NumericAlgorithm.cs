@@ -1,3 +1,5 @@
+using System;
+
 namespace PracticeSolution.CoreLogic.SimpleNumericalAlgorithms
 {
     public class NumericAlgorithm
@@ -66,6 +68,15 @@ namespace PracticeSolution.CoreLogic.SimpleNumericalAlgorithms
         public int LCM(int a, int b)
         {
             return a / GCD(a, b) * b;
+        }
+        
+        public static bool IsSimple(int number)
+        {
+            double sqrt = Math.Sqrt(number);
+            for(var i = 2; i <= sqrt; i++)
+                if (number % i == 0)
+                    return false;
+            return true;
         }
     }
 }

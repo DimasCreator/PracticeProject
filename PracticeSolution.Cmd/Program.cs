@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Linq;
 using PracticeSolution.CoreLogic.CryptographyAlgorithms;
+using PracticeSolution.CoreLogic.PracticeTasks;
 
 namespace PracticeSolution.Cmd
 {
@@ -7,21 +9,11 @@ namespace PracticeSolution.Cmd
     {
         static void Main(string[] args)
         {
-            Cryptographer cript = new Cryptographer();
-
-            string s = "Hello World";
-            Console.WriteLine(s);
-            
-            var s1 = cript.CezarEncode(s, 3);
-            Console.WriteLine(s1);
-            var s2 = cript.CezarDecode(s1, 3);
-            Console.WriteLine(s2);
-
-            var s3 = cript.ViznerEncode(s2, "keykey");
-            Console.WriteLine(s3);
-            
-            var s4 = cript.ViznerDecode(s3, "keykey");
-            Console.WriteLine(s4);
+            PracticeTasks_p1 p = new PracticeTasks_p1();
+            foreach (var v in p.Task5(100))
+            {
+                Console.WriteLine(v);
+            }
         }
     }
 }
