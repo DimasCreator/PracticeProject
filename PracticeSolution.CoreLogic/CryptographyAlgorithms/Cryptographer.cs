@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using System.Text;
 
@@ -16,9 +15,7 @@ namespace PracticeSolution.CoreLogic.CryptographyAlgorithms
         
         public string CezarDecode(string inputString, byte key)
         {
-            var b = Encoding.Unicode.GetBytes(inputString);
-            for (var i = 0; i < b.Length; i++)
-                b[i] -= key;
+            var b = Encoding.Unicode.GetBytes(inputString).Select(b=>b-=key).ToArray();
             return Encoding.Unicode.GetString(b);
         }
         
@@ -37,7 +34,6 @@ namespace PracticeSolution.CoreLogic.CryptographyAlgorithms
                 if (currentIndex == keys.Length)
                     currentIndex = 0;
             }
-                
             return Encoding.Unicode.GetString(bytes);
         }
         
